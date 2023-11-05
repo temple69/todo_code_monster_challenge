@@ -1,4 +1,3 @@
-import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import Todo from "./Components/Todo"; //Todo Component
 import TodoContextProvider from "./context/TodoContext";
 

@@ -95,7 +95,6 @@ const TodoContextProvider = ({ children }: TodoContextProps) => {
     if (status === "Completed") {
       const completed = taskList.filter((task) => task.completed);
       console.log(completed);
-      localStorage.setItem("completedTasks", JSON.stringify(completed));
       setCompletedTasks(completed);
       setIsCompletedTasks(true);
     } else {
